@@ -3,6 +3,12 @@ Every day, hundreds and thousands of crimes happen in major cities of the United
 
 In this study, I utilized the historical crime record provided by the City of Chicago to build a crime classifier. I also integrate other relevant datasets (socioeconomic data) to improve the accuracy of the classification. Given time, location and information derived from time and location, this binary classifier is capable of classifying whether a crime is severe or not. The multiclass classifier is capable of classifying the exact type of crime. This study also provided helpful insights into the pattern of crime.
 
+The primary dataset in use is Chicago crime dataset documenting crime records from 2001 to 2017.
+https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
+
+Integration with the socioeconomic status of the neighborhood where the crime happend.
+https://data.cityofchicago.org/Health-Human-Services/hardship-index/792q-4jtu
+
 This repository has files for 
 1. Data Cleanup
 2. Data Visualization
